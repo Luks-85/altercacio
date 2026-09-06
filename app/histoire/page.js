@@ -8,8 +8,8 @@ export default async function Histoire() {
     .order('numero', { ascending: false })
 
   return (
-    <main className="min-h-screen px-6 md:px-16 py-12"
-      style={{paddingLeft: '120px', paddingRight: '40px', backgroundColor: '#3D1F3A' }}>
+    <main className="min-h-screen px-6 md:pl-32 md:pr-10 py-12"
+      style={{ backgroundColor: '#3D1F3A' }}>
 
       <p style={{ color: '#C9A84C', letterSpacing: '4px', fontSize: '13px' }}
         className="uppercase mb-4">
@@ -22,7 +22,7 @@ export default async function Histoire() {
       </h1>
 
       <div className="grid gap-4"
-        style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(500px, 1fr))' }}>
+        style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))' }}>
         {questions?.map(q => (
           <Link href={`/histoire/${q.id}`} key={q.id}
             className="flex items-center justify-between p-6 group"
