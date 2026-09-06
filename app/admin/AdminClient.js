@@ -59,7 +59,7 @@ async function verifierMotDePasse() {
 
 if (!connecte) {
   return (
-    <main className="min-h-screen flex items-center justify-center"
+    <main className="min-h-screen px-6 md:px-16 py-12"
       style={{paddingLeft: '120px', paddingRight: '40px', backgroundColor: '#3D1F3A' }}>
       <div className="flex flex-col gap-4 max-w-sm w-full">
         <p style={{ color: '#C9A84C', letterSpacing: '4px', fontSize: '13px' }}

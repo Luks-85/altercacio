@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function APropos() {
   return (
-    <main className="min-h-screen px-16 py-12"
+    <main className="min-h-screen px-6 md:px-16 py-12"
       style={{paddingLeft: '120px', paddingRight: '40px', backgroundColor: '#3D1F3A' }}>
       <div className="max-w-3xl mx-auto">
         <p style={{ color: '#C9A84C', letterSpacing: '4px', fontSize: '13px' }}
