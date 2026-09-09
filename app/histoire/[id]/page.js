@@ -3,11 +3,12 @@ import { supabase } from '@/lib/supabase'
 export default async function QuestionArchive({ params }) {
   const { id } = await params
   
-  const { data: question } = await supabase
-    .from('questions')
-    .select('*')
-    .eq('id', id)
-    .single()
+  const { data: questions } = await supabase
+  .from('questions')
+  .select('*')
+  .eq('active', true)
+  .lte('publie_le', new Date().toISOString())
+  .order('publie_le', { ascending: false })
 
   const { data: votes } = await supabase
     .from('votes')

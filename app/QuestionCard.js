@@ -201,7 +201,7 @@ export default function QuestionCard({ question }) {
 
       {/* Les boutons */}
       {!aVote ? (
-  <div className="flex flex-row gap-4 md:gap-8">
+  <div className="flex flex-row gap-4 md:gap-8 mb-8">
     <button
       onClick={() => handleVote('OUI')}
       style={{ borderColor: '#C9A84C', color: '#EDE0C8' }}
