@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: "Altercacio",
     description: "Une question. Deux camps. Des arguments.",
-    url: "https://ton-url.vercel.app",
+    url: "https://altercacio.vercel.app",
     siteName: "Altercacio",
     locale: "fr_FR",
     type: "website",
