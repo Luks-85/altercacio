@@ -32,7 +32,7 @@ export const metadata = {
   },
 
   verification: {
-    google: "<meta name="google-site-verification" content="YY1KM7v4dwr5a4akgQnCzMbT9rNav46xvK5RBtPT8R8" />"
+    google: "<meta name="google-site-verification" content="YY1KM7v4dwr5a4akgQnCzMbT9rNav46xvK5RBtPT8R8" />",
   }
 }
 
