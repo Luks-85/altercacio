@@ -29,7 +29,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Altercacio",
     description: "Une question. Deux camps. Des arguments.",
-  }
+  },
 
   verification: {
     google: "<meta name="google-site-verification" content="YY1KM7v4dwr5a4akgQnCzMbT9rNav46xvK5RBtPT8R8" />"
