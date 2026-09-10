@@ -15,7 +15,7 @@ const garamond = EB_Garamond({
 export const metadata = {
   title: "Altercacio - Une question. 2 camps. Des arguments",
   description: "Chaque semaine, une question de société, philosophie ou politique. Répondez OUI ou NON et argumentez. Découvrez ce que pensent les autres.",
-  keywords: ["débats", "philosophie", "politique", "société", "arguments", "réflexion"]
+  keywords: ["débats", "philosophie", "politique", "société", "arguments", "réflexion"],
   openGraph: {
     title: "Altercacio",
     description: "Une question. Deux camps. Des arguments.",
