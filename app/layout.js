@@ -13,8 +13,27 @@ const garamond = EB_Garamond({
 })
 
 export const metadata = {
-  title: "Altercacio",
-  description: "Une question. Deux camps. Des arguments.",
+  title: "Altercacio - Une question. 2 camps. Des arguments",
+  description: "Chaque semaine, une question de société, philosophie ou politique. Répondez OUI ou NON et argumentez. Découvrez ce que pensent les autres.",
+  keywords: ["débats", "philosophie", "politique", "société", "arguments", "réflexion"]
+  openGraph: {
+    title: "Altercacio",
+    description: "Une question. Deux camps. Des arguments.",
+    url: "https://ton-url.vercel.app",
+    siteName: "Altercacio",
+    locale: "fr_FR",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Altercacio",
+    description: "Une question. Deux camps. Des arguments.",
+  }
+
+  verification: {
+    google: "<meta name="google-site-verification" content="YY1KM7v4dwr5a4akgQnCzMbT9rNav46xvK5RBtPT8R8" />"
+  }
 }
 
 export default function RootLayout({ children }) {
